@@ -1,4 +1,4 @@
-# UCL Fleming x KCL Tech x Oxford Engineering: 2026 PCB Challenge | Sponsored by PCBWay
+# UCL Fleming x KCL Tech x Oxford Engineering x Imperial EEE: 2026 PCB Challenge | Sponsored by PCBWay
 
 UCL, KCL and Oxford are proud to present the 2026 PCB Challenge. Many thanks to PCBWay for sponsoring the prizes. 
 
