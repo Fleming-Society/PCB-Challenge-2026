@@ -1,3 +1,5 @@
+![Challenge schematic](schematic.png)
+
 # UCL Fleming x KCL Tech x Oxford Engineering x Imperial EEE: 2026 PCB Challenge | Sponsored by PCBWay
 
 UCL, KCL and Oxford are proud to present the 2026 PCB Challenge. Many thanks to PCBWay for sponsoring the prizes. 
@@ -79,4 +81,4 @@ The challenge schematic does include a high speed signal paths (a differential p
 
 - All participants who submit a valid entry will receive a certificate of participation, a 10$ coupon on orders above 30$ for PCBWay and a PCB ruler from PCBWay. To be classified as a participant you must actually complete the PCB, this meaning that all the connections have been connected with a trace. Auto trace does not count. 
 
-Expect the results to be announced within a week or two from the end date of the challenge. 
+Expect the results to be announced within a week or two from the end date of the challenge.
