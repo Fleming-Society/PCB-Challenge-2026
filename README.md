@@ -1,8 +1,8 @@
 ![Challenge schematic](schematic.png)
 
-# UCL x KCL x Oxford x Imperial x Cambridge x Edinburgh: 2026 PCB Challenge | Sponsored by PCBWay
+# UCL x KCL x Oxford x Imperial x Cambridge x Edinburgh: 2026 PCB Challenge | Sponsored by PCBWay and Jane Street
 
-UCL, KCL and Oxford, Cambridge, Imperial and Edinburgh are proud to present the 2026 PCB Challenge. Many thanks to PCBWay for sponsoring the prizes. 
+UCL, KCL and Oxford, Cambridge, Imperial and Edinburgh are proud to present the 2026 PCB Challenge. Many thanks to PCBWay and Jane Street for sponsoring the prizes. 
 
 If you have any questions please email zceepvb@ucl.ac.uk. Please keep in mind you cannot make a submission/be eligible for the prizes if you do not attend any of the universities organising this event. Within the 7 day period this event is being hosted, any university Engineering society is free to reach out to collaborate at this email address. 
 
@@ -78,6 +78,9 @@ The challenge schematic does include a high speed signal paths (a differential p
 - **1st place:** £200
 - **2nd place:** £100
 - **3rd place:** £50
+
+- **Top 10**: Jane Street Water Bottle
+- **Top 65**: Jane Street Tech T-Shirt, 10$ PCBWay Coupon and a PCB Ruler
 
 - All participants who submit a valid entry will receive a certificate of participation, a 10$ coupon on orders above 30$ for PCBWay and a PCB ruler from PCBWay. To be classified as a participant you must actually complete the PCB, this meaning that all the connections have been connected with a trace. Auto trace does not count. 
 
