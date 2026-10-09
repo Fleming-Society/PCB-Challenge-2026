@@ -13,7 +13,7 @@ UCL, KCL and Oxford, Cambridge, Imperial and Edinburgh are proud to present the 
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://www.pcbway.com">
-    <img src="assets/sponsors/pcbway.png" alt="PCBWay" height="70">
+    <img src="assets/sponsors/pcbway.png" alt="PCBWay" height="80">
   </a>
 </p>
 
