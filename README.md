@@ -106,8 +106,8 @@ Thank you to our sponsors for making this challenge possible.
 <p align="center">
   <a href="https://www.janestreet.com">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="assets/sponsors/janestreet-white.png">
-      <img src="assets/sponsors/janestreet.png" alt="Jane Street" height="90">
+      <source media="(prefers-color-scheme: dark)" srcset="assets/sponsors/janestreet.png">
+      <img src="assets/sponsors/janestreet.png" alt="Jane Street" height="60">
     </picture>
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
