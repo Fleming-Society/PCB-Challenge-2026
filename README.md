@@ -8,7 +8,7 @@ UCL, KCL and Oxford, Cambridge, Imperial and Edinburgh are proud to present the 
   <a href="https://www.janestreet.com">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/sponsors/janestreet.png">
-      <img src="assets/sponsors/janestreet.png" alt="Jane Street" height="90">
+      <img src="assets/sponsors/janestreet.png" alt="Jane Street" height="80">
     </picture>
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
