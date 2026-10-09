@@ -4,6 +4,19 @@
 
 UCL, KCL and Oxford, Cambridge, Imperial and Edinburgh are proud to present the 2026 PCB Challenge. Many thanks to PCBWay and Jane Street for sponsoring the prizes. 
 
+<p align="center">
+  <a href="https://www.janestreet.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/sponsors/janestreet-white.png">
+      <img src="assets/sponsors/janestreet.png" alt="Jane Street" height="90">
+    </picture>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.pcbway.com">
+    <img src="assets/sponsors/pcbway.png" alt="PCBWay" height="60">
+  </a>
+</p>
+
 If you have any questions please email zceepvb@ucl.ac.uk. Please keep in mind you cannot make a submission/be eligible for the prizes if you do not attend any of the universities organising this event. Within the 7 day period this event is being hosted, any university Engineering society is free to reach out to collaborate at this email address. 
 
 All files are meant for KiCAD v10.0, if you have not updated, you probably should. It is a much better version than KiCAD v9.0 (includes dark mode). 
@@ -85,3 +98,20 @@ The challenge schematic does include a high speed signal paths (a differential p
 - All participants who submit a valid entry will receive a certificate of participation, a 10$ coupon on orders above 30$ for PCBWay and a PCB ruler from PCBWay. To be classified as a participant you must actually complete the PCB, this meaning that all the connections have been connected with a trace. Auto trace does not count. 
 
 Expect the results to be announced within a week or two from the end date of the challenge.
+
+## Sponsors
+
+Thank you to our sponsors for making this challenge possible.
+
+<p align="center">
+  <a href="https://www.janestreet.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/sponsors/janestreet-white.png">
+      <img src="assets/sponsors/janestreet.png" alt="Jane Street" height="90">
+    </picture>
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.pcbway.com">
+    <img src="assets/sponsors/pcbway.png" alt="PCBWay" height="60">
+  </a>
+</p>
