@@ -39,7 +39,7 @@ From my own experience, no matter how much you may like designing PCBs, ultimate
 This challenge will be running for 7 days, **until the midnight of October 19th.**
 
 Make your **submission** here:
-https://forms.cloud.microsoft/e/69LKd5ykra
+https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwtUrHdFLQS5OlbEozvc0DnlUMzJQWkFZVDhVRjZNVTlCQjhHQ0hDSUxSQi4u
 
 Your challenge submission should be a public GitHub repo. In this repo you just need to include the files we need. Your submission for the logic deduction is in the form itself. 
 
