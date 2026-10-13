@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This board is a **serial input 8 bit adder with a fixed value match detector**. Two single bit data streams (Input 1 and Input 2) are clocked into two separate 8-bit serial in/parallel out shift registers. Once eight bits have been loaded, the two bytes are added by a cascaded 8 bit binary adder. The sum goes to a hard-wired equality comparator, which raises the output **F** only when the sum equals a predetermined constant.
+This board is a **serial input 8 bit adder with a fixed value match detector**. Two single bit data streams (Input 1 and Input 2) are clocked into two separate 8 bit serial in/parallel out shift registers. Once eight bits have been loaded, the two bytes are added by a cascaded 8 bit binary adder. The sum goes to a hard-wired equality comparator, which raises the output **F** only when the sum equals a predetermined constant.
 
 ## Functional Blocks
 
