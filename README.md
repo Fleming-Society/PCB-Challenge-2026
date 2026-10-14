@@ -19,7 +19,7 @@ UCL, KCL and Oxford, Cambridge, Imperial and Edinburgh are proud to present the 
 
 If you have any questions please email zceepvb@ucl.ac.uk. Please keep in mind you cannot make a submission/be eligible for the prizes if you do not attend any of the universities organising this event. Within the 7 day period this event is being hosted, any university Engineering society is free to reach out to collaborate at this email address. 
 
-# I am aware that there is an issue with the flip flop footprints and we will ignore any DRC errors associated with them. Just ensure you use a trace width of 0.17 for them. 
+### I am aware that there is an issue with the flip flop footprints and we will ignore any DRC errors associated with them. Just ensure you use a trace width of 0.17 for them. 
 
 All files are meant for KiCAD v10.0, if you have not updated, you probably should. It is a much better version than KiCAD v9.0 (includes dark mode). 
 
