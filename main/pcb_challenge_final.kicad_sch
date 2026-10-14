@@ -7893,7 +7893,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.292 77.47) (xy 308.864 77.47)
+			(xy 304.292 77.47) (xy 309.88 77.47)
 		)
 		(stroke
 			(width 0)
@@ -8830,6 +8830,16 @@
 			(type default)
 		)
 		(uuid "5224a3d9-835a-48ad-8a30-f455c8531a5e")
+	)
+	(wire
+		(pts
+			(xy 205.74 22.86) (xy 212.852 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52cea997-cc16-4945-827c-e541c3bfd8a5")
 	)
 	(wire
 		(pts
@@ -37888,6 +37898,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VDD")
+		(at 309.88 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3aeb3de3-e4e3-4f4e-84f8-3655f63c5521")
+		(property "Reference" "#PWR011"
+			(at 309.88 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 307.594 73.914 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 309.88 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 309.88 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDD\""
+			(at 309.88 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ad69c0b-2469-4f97-8116-2884876f0244")
+		)
+		(instances
+			(project "pcb_challenge_final"
+				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 247.142 35.56 0)
 		(unit 1)
@@ -45022,7 +45110,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 212.852 22.86 90)
+		(at 205.74 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -45030,10 +45118,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "87c6779e-465a-4ea1-a76e-2ca6697c1aa9")
 		(property "Reference" "#PWR010"
-			(at 216.662 22.86 0)
+			(at 205.74 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45043,18 +45130,19 @@
 				)
 			)
 		)
-		(property "Value" "3v3"
-			(at 207.518 22.86 0)
+		(property "Value" "+3.3V"
+			(at 203.454 19.304 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 212.852 22.86 0)
+			(at 205.74 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45065,7 +45153,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.852 22.86 0)
+			(at 205.74 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -45076,7 +45164,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 212.852 22.86 0)
+			(at 205.74 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55628,85 +55716,6 @@
 			(project "pcb_challenge_final"
 				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
 					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 308.864 77.47 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "df8aef48-eb05-47bf-8382-fe887bb7659d")
-		(property "Reference" "#PWR03"
-			(at 305.054 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3v3"
-			(at 312.42 77.4699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 308.864 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 308.864 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 308.864 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6792fb0a-8986-49da-8592-af389afe6c9e")
-		)
-		(instances
-			(project "pcb_challenge_final"
-				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
