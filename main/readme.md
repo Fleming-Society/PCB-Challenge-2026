@@ -7,4 +7,4 @@
 6. SW2 pins are both GNDs, I cannot force KiCAD to accept this as a rst pin. 
 
 #### Credits to: 
-Mickey Techachokwiwat and Lutfi Cengiz for finding these issues and reporting them to me.
+Mickey Techachokwiwat, Andy Gao and Lutfi Cengiz for finding these issues and reporting them to me.
