@@ -73,7 +73,7 @@ The keep out zone of the ESP32 antenna does not have to cover any PCB area, it c
 - Boards do not need to retain fully legible silkscreen labelling. 
 
 ### DRC Pass Criteria
-- All submitted boards must pass KiCad's Design Rule Checker to a good degree (Inspect → Design Rules Checker) to a good degree. I understand that the DRC can be quite buggy especially with imported footprints, thus I will be a bit lenient. 
+- All submitted boards must pass KiCad's Design Rule Checker to a good degree (Inspect → Design Rules Checker). I understand that the DRC can be quite buggy especially with imported footprints, thus I will be a bit lenient. 
 - DRC **warnings** (e.g. minor silkscreen clipping) will not disqualify a board, but excessive or careless warnings may count against a board at the routing quality tie break stage.
 
 #### I am aware that there is an issue with the flip flop footprints and we will ignore any DRC errors associated with them. Just ensure you use a trace width of 0.17 for them. 
