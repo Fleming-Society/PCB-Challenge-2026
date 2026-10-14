@@ -2732,6 +2732,293 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Q_Dual_NPN_PNP_B1E2B2C2E1C1_1"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q15"
+				(at 5.08 1.2701 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
+				(at 5.08 -1.2699 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
+				(at 5.08 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Dual NPN/PNP transistor, 6 pin package"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "BJT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Q_Dual_NPN_PNP_B1E2B2C2E1C1_1_0_1"
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Q_Dual_NPN_PNP_B1E2B2C2E1C1_1_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Q_Dual_NPN_PNP_B1E2B2C2E1C1_1_2_1"
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF_Module:ESP32-S3-MINI-1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4617,291 +4904,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
-				(at 5.08 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Dual NPN/PNP transistor, 6 pin package"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "BJT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Q_Dual_NPN_PNP_B1E2B2C2E1C1_0_1"
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Q_Dual_NPN_PNP_B1E2B2C2E1C1_1_1"
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "Q_Dual_NPN_PNP_B1E2B2C2E1C1_2_1"
-				(polyline
-					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6884,12 +6886,6 @@
 		(uuid "10212101-805d-4b9a-8988-c3152642bb9b")
 	)
 	(junction
-		(at 166.37 382.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10ff648f-eb24-4b36-9267-e09ba5e38ebc")
-	)
-	(junction
 		(at 53.34 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6920,12 +6916,6 @@
 		(uuid "1a52b6ca-1fd1-4e69-a2a4-f22e581e88f2")
 	)
 	(junction
-		(at 577.85 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b36e8a0-a17a-4449-b61b-089ec73db559")
-	)
-	(junction
 		(at 246.888 71.882)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6944,12 +6934,6 @@
 		(uuid "2952e7c8-78c7-47e3-9c72-6ed882a546f2")
 	)
 	(junction
-		(at 232.41 496.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2b131046-f4ee-4bde-bb9f-5defaa04aa11")
-	)
-	(junction
 		(at 242.57 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6966,6 +6950,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c0b72a2-8344-4611-a956-4253a5d21fe0")
+	)
+	(junction
+		(at 232.41 532.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2dfd8830-772a-4ac4-aa12-d6462f794003")
 	)
 	(junction
 		(at 232.41 472.44)
@@ -6998,12 +6988,6 @@
 		(uuid "3c625ac7-0a64-4e71-bbdb-09b1f75b2c54")
 	)
 	(junction
-		(at 173.99 377.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d343421-1314-417a-a0f1-c75c5810defd")
-	)
-	(junction
 		(at 144.78 541.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7014,12 +6998,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "44141249-1505-4fd0-b8d8-4e3eb1fd7925")
-	)
-	(junction
-		(at 115.57 541.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "455231a6-5e55-4b5e-8030-ed09391da8fb")
 	)
 	(junction
 		(at 577.85 45.72)
@@ -7076,28 +7054,22 @@
 		(uuid "5d4fdc24-89a9-487a-bdeb-1c0122e89869")
 	)
 	(junction
-		(at 344.17 120.65)
+		(at 166.37 382.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "638a97b4-e9eb-4ede-8eb5-ef10e0d8009d")
+		(uuid "61258d30-b109-4a9b-918c-f43c04375890")
 	)
 	(junction
-		(at 232.41 532.13)
+		(at 579.12 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "697fa74b-7301-4b7b-91b1-69d3a4093287")
+		(uuid "65b6cea4-f2af-457f-839e-6eeb32f995eb")
 	)
 	(junction
 		(at 69.85 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a53efe4-6fa9-4f64-86ba-2894ffe27211")
-	)
-	(junction
-		(at 344.17 195.58)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6de47a39-28d8-4859-932f-d01762351f6f")
 	)
 	(junction
 		(at 351.79 151.13)
@@ -7110,12 +7082,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7745fbeb-6d20-4778-af46-efd4cd0af28d")
-	)
-	(junction
-		(at 579.12 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "782664d1-f6e4-4ed9-9e8b-59470bd02c58")
 	)
 	(junction
 		(at 93.98 40.64)
@@ -7154,10 +7120,28 @@
 		(uuid "8034fe2b-16bc-471e-bc0d-2cdcc47e6484")
 	)
 	(junction
+		(at 344.17 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "813a3da0-af97-47a0-ad46-1a1387d70d15")
+	)
+	(junction
 		(at 579.12 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "82d1c1af-9b66-4de9-ac8c-57289c9b1d3c")
+	)
+	(junction
+		(at 579.12 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8661daef-c1d6-437a-af1a-d57183cc9a22")
+	)
+	(junction
+		(at 579.12 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "89c35313-6dd8-48ed-a512-7d9a85806325")
 	)
 	(junction
 		(at 153.416 27.94)
@@ -7172,10 +7156,16 @@
 		(uuid "8a68c4f4-891b-42af-94b1-e75248e8d250")
 	)
 	(junction
-		(at 232.41 457.2)
+		(at 344.17 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8c04a160-6e84-4be8-be3e-fb2944262c94")
+		(uuid "8ac0b2e5-ce1d-4dae-a263-65b91a142fa7")
+	)
+	(junction
+		(at 115.57 541.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ac1dd12-cba8-45d4-a1f3-204f857eb658")
 	)
 	(junction
 		(at 58.42 71.12)
@@ -7184,22 +7174,16 @@
 		(uuid "8d6e50d4-063d-467a-9d64-a6ef035d3f86")
 	)
 	(junction
-		(at 579.12 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8e5f57cc-b6fe-4ff6-bbc7-0faa2344d720")
-	)
-	(junction
-		(at 85.09 541.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8ecdd5a9-0589-41d8-9bd5-d3dda2ed98ac")
-	)
-	(junction
 		(at 69.85 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90a66a49-3c71-43fa-b4e5-c84d21bd350f")
+	)
+	(junction
+		(at 232.41 457.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90d4a9f3-f143-4476-9334-3c59f0f8ea93")
 	)
 	(junction
 		(at 453.39 170.18)
@@ -7218,18 +7202,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9405722f-dc6b-452c-afeb-9e818bcfc9e9")
-	)
-	(junction
-		(at 344.17 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "94a5bb3f-4371-4a72-b81d-d635c8c373e1")
-	)
-	(junction
-		(at 579.12 67.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "961f3c1b-1d6d-4a08-832c-36f10bb45f9f")
 	)
 	(junction
 		(at 130.81 466.09)
@@ -7286,6 +7258,12 @@
 		(uuid "b8f73e76-cd9d-4803-82c0-c131225fcefa")
 	)
 	(junction
+		(at 55.88 541.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb001f86-acd0-44e1-8f9b-8d4f668624cb")
+	)
+	(junction
 		(at 130.81 471.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7328,10 +7306,10 @@
 		(uuid "da385413-a9bf-4136-9bb3-ff37bf23c68e")
 	)
 	(junction
-		(at 55.88 541.02)
+		(at 232.41 496.57)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "db0c65bc-afd2-49fb-aaf5-2a1c90b5d99d")
+		(uuid "db375abe-3c48-45d3-9e4d-edb989d35853")
 	)
 	(junction
 		(at 416.56 135.89)
@@ -7388,6 +7366,12 @@
 		(uuid "e2ced502-9272-4d7d-ab73-4681b0443ae8")
 	)
 	(junction
+		(at 173.99 377.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6846811-9a19-4359-b65d-7076875ae07a")
+	)
+	(junction
 		(at 138.684 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7400,10 +7384,22 @@
 		(uuid "e979b4c8-d7ff-40af-ac87-ed2956d9a0c1")
 	)
 	(junction
+		(at 577.85 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea085a4e-ba03-4f8b-b638-eda6913193ef")
+	)
+	(junction
 		(at 115.57 556.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed89b654-6f44-4055-bb2f-1c33ae4892fc")
+	)
+	(junction
+		(at 85.09 541.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef671c9d-77e3-428e-8169-43d67a8409e5")
 	)
 	(junction
 		(at 232.41 547.37)
@@ -7428,6 +7424,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcaac2f8-7479-4f57-a09e-c277d1fb1599")
+	)
+	(junction
+		(at 344.17 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fe8e8f15-240b-43ca-be9e-09cb7fcd06b6")
 	)
 	(junction
 		(at 586.74 57.15)
@@ -8603,6 +8605,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 377.19) (xy 193.04 377.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4271b768-2cab-4cee-beb6-8e768496e95d")
+	)
+	(wire
+		(pts
 			(xy 153.162 41.91) (xy 154.94 41.91)
 		)
 		(stroke
@@ -8870,16 +8882,6 @@
 			(type default)
 		)
 		(uuid "56204338-5be8-4033-a16f-66e85df41f88")
-	)
-	(wire
-		(pts
-			(xy 173.99 377.19) (xy 193.04 377.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "564655b4-ed9d-4258-b2c3-a4011141b0dd")
 	)
 	(wire
 		(pts
@@ -29437,7 +29439,7 @@
 			)
 		)
 	)
-	(global_label "CLK"
+	(global_label "clk"
 		(shape input)
 		(at 60.96 71.12 0)
 		(fields_autoplaced yes)
@@ -29449,7 +29451,7 @@
 		)
 		(uuid "955487b3-cc95-4c2a-99eb-bdea03665ae2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 67.5133 71.12 0)
+			(at 66.7271 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29701,7 +29703,7 @@
 			)
 		)
 	)
-	(global_label "Input 1"
+	(global_label "b1"
 		(shape input)
 		(at 63.5 535.94 90)
 		(fields_autoplaced yes)
@@ -29713,7 +29715,7 @@
 		)
 		(uuid "a832f36c-8bdf-49af-abea-cd4e6ed5faca")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 526.0002 90)
+			(at 63.5 530.5963 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30421,7 +30423,7 @@
 			)
 		)
 	)
-	(global_label "Input 4"
+	(global_label "b4"
 		(shape input)
 		(at 152.4 535.94 90)
 		(fields_autoplaced yes)
@@ -30433,7 +30435,7 @@
 		)
 		(uuid "c66a7ac2-e6f1-4dd2-abc3-7f469d122d66")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 526.0002 90)
+			(at 152.4 530.5963 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31333,7 +31335,7 @@
 			)
 		)
 	)
-	(global_label "Input 2"
+	(global_label "b2"
 		(shape input)
 		(at 92.71 535.94 90)
 		(fields_autoplaced yes)
@@ -31345,7 +31347,7 @@
 		)
 		(uuid "f456cabc-9df1-4c27-b32e-989e032e3118")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.71 526.0002 90)
+			(at 92.71 530.5963 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31429,7 +31431,7 @@
 			)
 		)
 	)
-	(global_label "Input 3"
+	(global_label "b3"
 		(shape input)
 		(at 123.19 535.94 90)
 		(fields_autoplaced yes)
@@ -31441,7 +31443,7 @@
 		)
 		(uuid "fb7a842e-2705-42b8-a2bf-5cf65d579ff9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.19 526.0002 90)
+			(at 123.19 530.5963 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33239,6 +33241,103 @@
 		)
 	)
 	(symbol
+		(lib_name "Q_Dual_NPN_PNP_B1E2B2C2E1C1_1")
+		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
+		(at 60.96 541.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d00cc46-d69c-4b77-a4b2-a6d859ccb72d")
+		(property "Reference" "Q29"
+			(at 66.04 539.7499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
+			(at 66.04 542.2899 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
+			(at 66.04 538.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
+			(at 60.96 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "a5c9ac57-5bf3-4393-bc2f-162198f1ad99")
+		)
+		(pin "3"
+			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d38d")
+		)
+		(pin "2"
+			(uuid "cec02b37-0245-4924-b730-a85a8ca05fbf")
+		)
+		(pin "1"
+			(uuid "8b92ded0-c0a6-4eb0-a6c1-246066c1d42a")
+		)
+		(pin "2"
+			(uuid "fb792f1e-fb7a-4bff-b9a0-4cd84d5ce6c8")
+		)
+		(pin "4"
+			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc66")
+		)
+		(instances
+			(project "pcb_challenge_final"
+				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
+					(reference "Q29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 80.01 198.12 0)
 		(unit 1)
@@ -33546,6 +33645,103 @@
 			(project "pcb_challenge_final"
 				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
 					(reference "#PWR0178")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Q_Dual_NPN_PNP_B1E2B2C2E1C1_1")
+		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
+		(at 584.2 105.41 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "103eb5d2-e35b-4c4b-9ed1-c4267852e17a")
+		(property "Reference" "Q26"
+			(at 589.28 104.1399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
+			(at 589.28 106.6799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
+			(at 589.28 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 584.2 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
+			(at 584.2 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "0be8879e-9271-4b53-9747-3025dc34a69e")
+		)
+		(pin "3"
+			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d38d")
+		)
+		(pin "2"
+			(uuid "207d8bb7-e55d-4fe3-9b6e-87c673bb4429")
+		)
+		(pin "1"
+			(uuid "37af0ac6-d036-46c6-9b22-50dcff3fd29c")
+		)
+		(pin "2"
+			(uuid "c732e90e-92bb-4034-bb73-95226a118ba7")
+		)
+		(pin "4"
+			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc66")
+		)
+		(instances
+			(project "pcb_challenge_final"
+				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
+					(reference "Q26")
 					(unit 1)
 				)
 			)
@@ -34230,7 +34426,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 244.094 61.5188 0)
 			(hide yes)
 			(show_name no)
@@ -34351,6 +34547,103 @@
 			(project "pcb_challenge_final"
 				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
 					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Q_Dual_NPN_PNP_B1E2B2C2E1C1_1")
+		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
+		(at 349.25 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "17675d63-720d-4bd1-90e2-697cfccf6bae")
+		(property "Reference" "Q18"
+			(at 354.33 119.3799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
+			(at 354.33 121.9199 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
+			(at 354.33 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
+			(at 349.25 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "ecc2a7a2-0a01-4288-9479-129647d72889")
+		)
+		(pin "3"
+			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d38d")
+		)
+		(pin "2"
+			(uuid "207d8bb7-e55d-4fe3-9b6e-87c673bb4429")
+		)
+		(pin "1"
+			(uuid "1e88dd44-3440-43a8-9577-db2b13b24a60")
+		)
+		(pin "2"
+			(uuid "8d378ffb-199b-45e6-89d2-8787bfd2b9f0")
+		)
+		(pin "4"
+			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc66")
+		)
+		(instances
+			(project "pcb_challenge_final"
+				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
+					(reference "Q18")
 					(unit 1)
 				)
 			)
@@ -35303,6 +35596,103 @@
 		)
 	)
 	(symbol
+		(lib_name "Q_Dual_NPN_PNP_B1E2B2C2E1C1_1")
+		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
+		(at 90.17 541.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e1bd7fa-12a9-4a1d-b351-09eee371c953")
+		(property "Reference" "Q28"
+			(at 95.25 539.7499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
+			(at 95.25 542.2899 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
+			(at 95.25 538.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
+			(at 90.17 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "bfa4e1f6-3cb0-4142-adf9-f20c98345676")
+		)
+		(pin "3"
+			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d38d")
+		)
+		(pin "2"
+			(uuid "207d8bb7-e55d-4fe3-9b6e-87c673bb4429")
+		)
+		(pin "1"
+			(uuid "df986166-17f6-42dc-b6ba-45f7ff02e6a4")
+		)
+		(pin "2"
+			(uuid "78834c68-24b6-4e23-ab4b-ddb09f11cb66")
+		)
+		(pin "4"
+			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc66")
+		)
+		(instances
+			(project "pcb_challenge_final"
+				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
+					(reference "Q28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 381 194.31 0)
 		(unit 1)
@@ -35694,102 +36084,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
-		(at 237.49 457.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "23768b5f-9018-4726-b542-ee7faf890c4a")
-		(property "Reference" "Q21"
-			(at 242.57 455.9299 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
-			(at 242.57 458.4699 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
-			(at 242.57 454.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 457.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
-			(at 237.49 457.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "5f15598c-6dcf-473e-8a89-44c59b8f9c53")
-		)
-		(pin "3"
-			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d38b")
-		)
-		(pin "2"
-			(uuid "207d8bb7-e55d-4fe3-9b6e-87c673bb4427")
-		)
-		(pin "1"
-			(uuid "b1efcbcc-c566-4823-9429-b98c531f5ee3")
-		)
-		(pin "5"
-			(uuid "702c2a6b-e36f-45cd-ac75-1b6b31ea465e")
-		)
-		(pin "4"
-			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc64")
-		)
-		(instances
-			(project "pcb_challenge_final"
-				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
-					(reference "Q21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 144.78 558.8 0)
 		(unit 1)
@@ -35900,7 +36194,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 242.5192 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -36109,6 +36403,103 @@
 			(project "pcb_challenge_final"
 				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Q_Dual_NPN_PNP_B1E2B2C2E1C1_1")
+		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
+		(at 237.49 532.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27d84ed9-9b51-4d30-8f14-a8d073fe1512")
+		(property "Reference" "Q23"
+			(at 242.57 530.8599 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
+			(at 242.57 533.3999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
+			(at 242.57 529.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 532.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
+			(at 237.49 532.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "19187186-6303-45f6-b45e-b4720b06035d")
+		)
+		(pin "3"
+			(uuid "3ea904ef-9d41-4f6d-aa4f-6454854bef69")
+		)
+		(pin "2"
+			(uuid "4054abd8-634b-41a4-9078-3bcad572f156")
+		)
+		(pin "1"
+			(uuid "9f7b2060-faf6-45e2-8953-e7d97f396803")
+		)
+		(pin "2"
+			(uuid "fb792f1e-fb7a-4bff-b9a0-4cd84d5ce6c8")
+		)
+		(pin "4"
+			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc66")
+		)
+		(instances
+			(project "pcb_challenge_final"
+				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
+					(reference "Q23")
 					(unit 1)
 				)
 			)
@@ -36529,8 +36920,9 @@
 		)
 	)
 	(symbol
+		(lib_name "Q_Dual_NPN_PNP_B1E2B2C2E1C1_1")
 		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
-		(at 349.25 195.58 0)
+		(at 237.49 457.2 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36539,9 +36931,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2ffa1541-5d36-4bb4-8a83-953a3ac56d07")
-		(property "Reference" "Q18"
-			(at 354.33 194.3099 0)
+		(uuid "2e057879-32af-4000-86ab-a18bfd92d522")
+		(property "Reference" "Q21"
+			(at 242.57 455.9299 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36553,7 +36945,7 @@
 			)
 		)
 		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
-			(at 354.33 196.8499 0)
+			(at 242.57 458.4699 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36565,7 +36957,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
-			(at 354.33 193.04 0)
+			(at 242.57 454.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36576,7 +36968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 349.25 195.58 0)
+			(at 237.49 457.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36587,7 +36979,7 @@
 			)
 		)
 		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
-			(at 349.25 195.58 0)
+			(at 237.49 457.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36597,28 +36989,125 @@
 				)
 			)
 		)
-		(pin "6"
-			(uuid "6a88cb8a-92a4-4418-86b2-6d432a1b05b8")
+		(pin "3"
+			(uuid "1c1d8e3a-a2cf-4524-92fc-c1db07158fcd")
 		)
 		(pin "3"
-			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d38a")
+			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d38d")
 		)
 		(pin "2"
-			(uuid "207d8bb7-e55d-4fe3-9b6e-87c673bb4426")
+			(uuid "e02cf331-309a-463d-a3af-34b5d6c859dc")
 		)
 		(pin "1"
-			(uuid "98d6cc15-6eb9-4f28-95c1-d2645522b835")
+			(uuid "77600e16-0c44-4543-acdf-71b4e3b773ba")
 		)
-		(pin "5"
-			(uuid "613b06d5-1b7f-43ee-b09d-70862686a9fe")
+		(pin "2"
+			(uuid "fb792f1e-fb7a-4bff-b9a0-4cd84d5ce6c8")
 		)
 		(pin "4"
-			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc63")
+			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc66")
 		)
 		(instances
 			(project "pcb_challenge_final"
 				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
-					(reference "Q18")
+					(reference "Q21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Q_Dual_NPN_PNP_B1E2B2C2E1C1_1")
+		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
+		(at 582.93 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2e33d952-8479-4a08-aa4b-a6cb18c62c1f")
+		(property "Reference" "Q24"
+			(at 588.01 29.2099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
+			(at 588.01 31.7499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
+			(at 588.01 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 582.93 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
+			(at 582.93 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "19187186-6303-45f6-b45e-b4720b06035d")
+		)
+		(pin "3"
+			(uuid "6c0031fc-91fc-42ac-adbf-973dabbba281")
+		)
+		(pin "2"
+			(uuid "740e3abb-7bd4-4243-babd-1aa0a81d5210")
+		)
+		(pin "1"
+			(uuid "5ccd1f83-bc0e-4621-8118-e19b71e97c1d")
+		)
+		(pin "2"
+			(uuid "fb792f1e-fb7a-4bff-b9a0-4cd84d5ce6c8")
+		)
+		(pin "4"
+			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc66")
+		)
+		(instances
+			(project "pcb_challenge_final"
+				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
+					(reference "Q24")
 					(unit 1)
 				)
 			)
@@ -37258,102 +37747,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
-		(at 584.2 67.31 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "35f9f568-51be-4be7-90eb-cf58c5d16742")
-		(property "Reference" "Q25"
-			(at 589.28 66.0399 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
-			(at 589.28 68.5799 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
-			(at 589.28 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 584.2 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
-			(at 584.2 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "e30becbb-89c9-49a6-8a5c-c2d6dee3a983")
-		)
-		(pin "3"
-			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d38c")
-		)
-		(pin "2"
-			(uuid "207d8bb7-e55d-4fe3-9b6e-87c673bb4428")
-		)
-		(pin "1"
-			(uuid "71141bee-375e-4f24-a6f9-083aa9f58559")
-		)
-		(pin "5"
-			(uuid "a2d80daa-e9ad-4448-b211-a6999f470c6d")
-		)
-		(pin "4"
-			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc65")
-		)
-		(instances
-			(project "pcb_challenge_final"
-				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
-					(reference "Q25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 579.12 114.3 180)
 		(unit 1)
@@ -37587,6 +37980,103 @@
 			(project "pcb_challenge_final"
 				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
 					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Q_Dual_NPN_PNP_B1E2B2C2E1C1_1")
+		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
+		(at 349.25 195.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "39437d98-249b-4d4c-b820-c31b66a7f36e")
+		(property "Reference" "Q20"
+			(at 354.33 194.3099 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
+			(at 354.33 196.8499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
+			(at 354.33 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
+			(at 349.25 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "6777b64e-86aa-4fe5-9ca5-fb87ee3f4e6c")
+		)
+		(pin "3"
+			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d38d")
+		)
+		(pin "2"
+			(uuid "88ce3f7b-bf98-4c70-9ac2-c062ad8dca6b")
+		)
+		(pin "1"
+			(uuid "69233fae-4aa9-4c31-8eec-415fcddc2ea0")
+		)
+		(pin "2"
+			(uuid "fb792f1e-fb7a-4bff-b9a0-4cd84d5ce6c8")
+		)
+		(pin "4"
+			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc66")
+		)
+		(instances
+			(project "pcb_challenge_final"
+				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
+					(reference "Q20")
 					(unit 1)
 				)
 			)
@@ -38006,7 +38496,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile"
 			(at 247.142 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -40498,6 +40988,103 @@
 		)
 	)
 	(symbol
+		(lib_name "Q_Dual_NPN_PNP_B1E2B2C2E1C1_1")
+		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
+		(at 584.2 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52bb02dc-a464-4fcb-bc90-bd64779da255")
+		(property "Reference" "Q25"
+			(at 589.28 66.0399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
+			(at 589.28 68.5799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
+			(at 589.28 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 584.2 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
+			(at 584.2 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "5653f490-c362-4165-9b4e-984a157d5b86")
+		)
+		(pin "3"
+			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d38d")
+		)
+		(pin "2"
+			(uuid "588b5b44-72d1-475f-9726-6efc545f2b67")
+		)
+		(pin "1"
+			(uuid "2f056ce9-d87d-4d5f-9264-81bca0f3a95a")
+		)
+		(pin "2"
+			(uuid "fb792f1e-fb7a-4bff-b9a0-4cd84d5ce6c8")
+		)
+		(pin "4"
+			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc66")
+		)
+		(instances
+			(project "pcb_challenge_final"
+				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
+					(reference "Q25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 109.22 149.86 0)
 		(unit 1)
@@ -40685,7 +41272,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 301.4472 40.386 0)
 			(hide yes)
 			(show_name no)
@@ -40895,6 +41482,103 @@
 			(project "pcb_challenge_final"
 				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
 					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Q_Dual_NPN_PNP_B1E2B2C2E1C1_1")
+		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
+		(at 584.2 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "599bd7c6-4638-411d-b769-0d7447e33dc3")
+		(property "Reference" "Q27"
+			(at 589.28 142.2399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
+			(at 589.28 144.7799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
+			(at 589.28 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 584.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
+			(at 584.2 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3dff5019-20ed-4ec2-bcbb-a572bc3348bc")
+		)
+		(pin "3"
+			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d38d")
+		)
+		(pin "2"
+			(uuid "0ff4ab0a-6fba-4134-9bca-ad2b962b05ff")
+		)
+		(pin "1"
+			(uuid "bfd1dd38-dd31-4cc9-82d2-948cedfdb759")
+		)
+		(pin "2"
+			(uuid "fb792f1e-fb7a-4bff-b9a0-4cd84d5ce6c8")
+		)
+		(pin "4"
+			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc66")
+		)
+		(instances
+			(project "pcb_challenge_final"
+				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
+					(reference "Q27")
 					(unit 1)
 				)
 			)
@@ -43368,6 +44052,7 @@
 		)
 	)
 	(symbol
+		(lib_name "Q_Dual_NPN_PNP_B1E2B2C2E1C1_1")
 		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
 		(at 149.86 541.02 0)
 		(unit 1)
@@ -43436,7 +44121,7 @@
 				)
 			)
 		)
-		(pin "6"
+		(pin "3"
 			(uuid "19187186-6303-45f6-b45e-b4720b06035d")
 		)
 		(pin "3"
@@ -43448,7 +44133,7 @@
 		(pin "1"
 			(uuid "45b5bab2-a6af-45c5-8202-d95d2a276c07")
 		)
-		(pin "5"
+		(pin "2"
 			(uuid "fb792f1e-fb7a-4bff-b9a0-4cd84d5ce6c8")
 		)
 		(pin "4"
@@ -44149,7 +44834,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_DIP_SPSTx01_Slide_6.7x4.1mm_W8.61mm_P2.54mm_LowProfile"
 			(at 228.092 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -44192,6 +44877,103 @@
 			(project "pcb_challenge_final"
 				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Q_Dual_NPN_PNP_B1E2B2C2E1C1_1")
+		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
+		(at 171.45 382.27 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "775a36cf-138b-4704-b0d1-db3f6f461a66")
+		(property "Reference" "Q16"
+			(at 176.53 380.9999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
+			(at 176.53 383.5399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
+			(at 176.53 379.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 382.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
+			(at 171.45 382.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "3405cf84-83db-4163-a5de-39307e78f20c")
+		)
+		(pin "3"
+			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d38d")
+		)
+		(pin "2"
+			(uuid "207d8bb7-e55d-4fe3-9b6e-87c673bb4429")
+		)
+		(pin "1"
+			(uuid "b91d5055-8635-4379-93ef-e485dfbd6ee0")
+		)
+		(pin "2"
+			(uuid "d7506184-902d-4233-9350-42ddbd483e00")
+		)
+		(pin "4"
+			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc66")
+		)
+		(instances
+			(project "pcb_challenge_final"
+				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
+					(reference "Q16")
 					(unit 1)
 				)
 			)
@@ -44762,102 +45544,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
-		(at 237.49 496.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8529ece2-591b-419e-b0ab-b7a603bc4e1b")
-		(property "Reference" "Q22"
-			(at 242.57 495.2999 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
-			(at 242.57 497.8399 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
-			(at 242.57 494.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 496.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
-			(at 237.49 496.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "b1033431-09b3-4900-be13-364196d37db2")
-		)
-		(pin "3"
-			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d38e")
-		)
-		(pin "2"
-			(uuid "207d8bb7-e55d-4fe3-9b6e-87c673bb442a")
-		)
-		(pin "1"
-			(uuid "a2c609b2-fa0d-4a7a-a11a-3fd57ea1cc6b")
-		)
-		(pin "5"
-			(uuid "3c2126a1-c165-44e1-a5f6-68ef31a29dae")
-		)
-		(pin "4"
-			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc67")
-		)
-		(instances
-			(project "pcb_challenge_final"
-				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
-					(reference "Q22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 74.93 407.67 0)
 		(unit 1)
@@ -45007,102 +45693,6 @@
 			(project "pcb_challenge_final"
 				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
 					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
-		(at 60.96 541.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86ace00e-bc18-472f-a9d5-74076aad0622")
-		(property "Reference" "Q12"
-			(at 66.04 539.7499 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
-			(at 66.04 542.2899 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
-			(at 66.04 538.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 541.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
-			(at 60.96 541.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "da4f7b60-704f-410d-a722-fdd7c4c1f1a8")
-		)
-		(pin "3"
-			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d38f")
-		)
-		(pin "2"
-			(uuid "207d8bb7-e55d-4fe3-9b6e-87c673bb442b")
-		)
-		(pin "1"
-			(uuid "b464390d-7c3c-49c2-b89c-73d7d25d03ec")
-		)
-		(pin "5"
-			(uuid "031fca33-b3bc-4838-9d12-ba8bd534df3a")
-		)
-		(pin "4"
-			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc68")
-		)
-		(instances
-			(project "pcb_challenge_final"
-				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
-					(reference "Q12")
 					(unit 1)
 				)
 			)
@@ -47281,7 +47871,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 234.8992 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -48247,198 +48837,6 @@
 			(project "pcb_challenge_final"
 				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
 					(reference "#PWR0107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
-		(at 120.65 541.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e7c59de-94ac-4f54-9655-015c16b3118b")
-		(property "Reference" "Q14"
-			(at 125.73 539.7499 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
-			(at 125.73 542.2899 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
-			(at 125.73 538.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 120.65 541.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
-			(at 120.65 541.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "630a9efa-973e-426a-90d2-11dd7bbfbc5e")
-		)
-		(pin "3"
-			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d390")
-		)
-		(pin "2"
-			(uuid "207d8bb7-e55d-4fe3-9b6e-87c673bb442c")
-		)
-		(pin "1"
-			(uuid "c177b8e2-cbb9-4141-aab5-f06c6cfc6dc7")
-		)
-		(pin "5"
-			(uuid "9125d192-b7ba-40d3-8274-0dcf25749eeb")
-		)
-		(pin "4"
-			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc69")
-		)
-		(instances
-			(project "pcb_challenge_final"
-				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
-					(reference "Q14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
-		(at 171.45 382.27 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f06eb6d-2150-4ddd-87f7-2cc03ce399fd")
-		(property "Reference" "Q16"
-			(at 176.53 380.9999 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
-			(at 176.53 383.5399 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
-			(at 176.53 379.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
-			(at 171.45 382.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "b5f259fc-cffe-40d0-8880-00baf2ee63b1")
-		)
-		(pin "3"
-			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d391")
-		)
-		(pin "2"
-			(uuid "207d8bb7-e55d-4fe3-9b6e-87c673bb442d")
-		)
-		(pin "1"
-			(uuid "d0d961b6-e569-4508-93b9-66775f40dd73")
-		)
-		(pin "5"
-			(uuid "135d95c1-74fa-48a4-9585-35129ab92fa9")
-		)
-		(pin "4"
-			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc6a")
-		)
-		(instances
-			(project "pcb_challenge_final"
-				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
-					(reference "Q16")
 					(unit 1)
 				)
 			)
@@ -49424,6 +49822,103 @@
 		)
 	)
 	(symbol
+		(lib_name "Q_Dual_NPN_PNP_B1E2B2C2E1C1_1")
+		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
+		(at 120.65 541.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5b7af4f-d218-4ce0-879d-6e94078cb164")
+		(property "Reference" "Q17"
+			(at 125.73 539.7499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
+			(at 125.73 542.2899 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
+			(at 125.73 538.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
+			(at 120.65 541.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "19187186-6303-45f6-b45e-b4720b06035d")
+		)
+		(pin "3"
+			(uuid "8e5f7c50-43f4-4087-ab42-abc94979af69")
+		)
+		(pin "2"
+			(uuid "207d8bb7-e55d-4fe3-9b6e-87c673bb4429")
+		)
+		(pin "1"
+			(uuid "56f2fba4-9eea-4f90-9f8b-e0a5c518c7f2")
+		)
+		(pin "2"
+			(uuid "9cf9518e-3808-433a-8860-28dc8fb093bb")
+		)
+		(pin "4"
+			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc66")
+		)
+		(instances
+			(project "pcb_challenge_final"
+				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
+					(reference "Q17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 184.15 495.3 90)
 		(unit 1)
@@ -49868,7 +50363,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 294.5892 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -50460,102 +50955,6 @@
 			(project "pcb_challenge_final"
 				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
 					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
-		(at 584.2 143.51 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b176b7cd-1b51-4d8e-9723-3fd6298d781f")
-		(property "Reference" "Q27"
-			(at 589.28 142.2399 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
-			(at 589.28 144.7799 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
-			(at 589.28 140.97 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 584.2 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
-			(at 584.2 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "71497b8c-1266-4167-b3c0-dc8ad8860141")
-		)
-		(pin "3"
-			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d392")
-		)
-		(pin "2"
-			(uuid "207d8bb7-e55d-4fe3-9b6e-87c673bb442e")
-		)
-		(pin "1"
-			(uuid "b36c346f-e1c9-4c7f-9abd-5cef9bb4b7a2")
-		)
-		(pin "5"
-			(uuid "2363c5b5-2d4e-43a8-af57-81b1039a008a")
-		)
-		(pin "4"
-			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc6b")
-		)
-		(instances
-			(project "pcb_challenge_final"
-				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
-					(reference "Q27")
 					(unit 1)
 				)
 			)
@@ -51615,7 +52014,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 305.2572 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -51658,102 +52057,6 @@
 			(project "pcb_challenge_final"
 				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
-		(at 582.93 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb079800-d363-4f6c-820c-4a7eaa23e7c5")
-		(property "Reference" "Q24"
-			(at 588.01 29.2099 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
-			(at 588.01 31.7499 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
-			(at 588.01 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 582.93 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
-			(at 582.93 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "a3706357-7a38-4adf-8b98-f4161eaecccd")
-		)
-		(pin "3"
-			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d393")
-		)
-		(pin "2"
-			(uuid "207d8bb7-e55d-4fe3-9b6e-87c673bb442f")
-		)
-		(pin "1"
-			(uuid "ca216968-a81c-43a4-bf3b-3326dcae0f0b")
-		)
-		(pin "5"
-			(uuid "62056f01-00b5-4638-af25-544ba3b738ce")
-		)
-		(pin "4"
-			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc6c")
-		)
-		(instances
-			(project "pcb_challenge_final"
-				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
-					(reference "Q24")
 					(unit 1)
 				)
 			)
@@ -52466,7 +52769,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 312.1152 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -52840,102 +53143,6 @@
 			(project "pcb_challenge_final"
 				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
 					(reference "#PWR0160")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
-		(at 584.2 105.41 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c522c77d-5d71-4e0b-9d4f-0bf9651f4316")
-		(property "Reference" "Q26"
-			(at 589.28 104.1399 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
-			(at 589.28 106.6799 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
-			(at 589.28 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 584.2 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
-			(at 584.2 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "fbbe7757-62d8-4999-a358-b1950b9a9efc")
-		)
-		(pin "3"
-			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d394")
-		)
-		(pin "2"
-			(uuid "207d8bb7-e55d-4fe3-9b6e-87c673bb4430")
-		)
-		(pin "1"
-			(uuid "212ecbd6-1815-4303-afc0-17ae113f5d2d")
-		)
-		(pin "5"
-			(uuid "616f5a25-9f2a-4d15-bc6b-07b3fbf5407e")
-		)
-		(pin "4"
-			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc6d")
-		)
-		(instances
-			(project "pcb_challenge_final"
-				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
-					(reference "Q26")
 					(unit 1)
 				)
 			)
@@ -54448,102 +54655,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
-		(at 90.17 541.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1bc85c6-d9b6-4a63-81c3-345e556b4762")
-		(property "Reference" "Q13"
-			(at 95.25 539.7499 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
-			(at 95.25 542.2899 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
-			(at 95.25 538.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 90.17 541.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
-			(at 90.17 541.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "f5fbdac0-4475-4f5c-86ab-a2dd1f8c3f82")
-		)
-		(pin "3"
-			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d395")
-		)
-		(pin "2"
-			(uuid "207d8bb7-e55d-4fe3-9b6e-87c673bb4431")
-		)
-		(pin "1"
-			(uuid "bff97a8f-4250-4276-aa4d-f921a917c1c9")
-		)
-		(pin "5"
-			(uuid "4c2625bc-e1b9-443a-b463-f6eb4499f2e8")
-		)
-		(pin "4"
-			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc6e")
-		)
-		(instances
-			(project "pcb_challenge_final"
-				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
-					(reference "Q13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "NMUX1308BQ_1")
 		(lib_id "Analog_Switch:NMUX1308BQ")
 		(at 299.72 195.58 0)
@@ -54969,102 +55080,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
-		(at 349.25 160.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da875893-269c-4527-a820-5dc2e5992705")
-		(property "Reference" "Q19"
-			(at 354.33 158.7499 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
-			(at 354.33 161.2899 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
-			(at 354.33 157.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 349.25 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
-			(at 349.25 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "2e680a46-d74c-4654-8945-1bfda3132b61")
-		)
-		(pin "3"
-			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d396")
-		)
-		(pin "2"
-			(uuid "207d8bb7-e55d-4fe3-9b6e-87c673bb4432")
-		)
-		(pin "1"
-			(uuid "b9b4fdf4-dd9c-4e54-adcc-f9502e789d40")
-		)
-		(pin "5"
-			(uuid "a64a86c1-997f-40e0-a45d-00c408df2208")
-		)
-		(pin "4"
-			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc6f")
-		)
-		(instances
-			(project "pcb_challenge_final"
-				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
-					(reference "Q19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 529.59 140.97 0)
 		(unit 1)
@@ -55251,7 +55266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 216.662 24.638 90)
 			(hide yes)
 			(show_name no)
@@ -55543,102 +55558,6 @@
 			(project "pcb_challenge_final"
 				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
 					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
-		(at 237.49 532.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dde4445c-9d47-44df-84ea-e024799cd412")
-		(property "Reference" "Q23"
-			(at 242.57 530.8599 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
-			(at 242.57 533.3999 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
-			(at 242.57 529.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 237.49 532.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
-			(at 237.49 532.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "6e664279-c51a-4bf5-9ae9-f54e31a57390")
-		)
-		(pin "3"
-			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d397")
-		)
-		(pin "2"
-			(uuid "207d8bb7-e55d-4fe3-9b6e-87c673bb4433")
-		)
-		(pin "1"
-			(uuid "31098798-f9bb-453e-9014-328216fdc142")
-		)
-		(pin "5"
-			(uuid "de275fb4-cc23-4b61-96c2-2a1302d26f3a")
-		)
-		(pin "4"
-			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc70")
-		)
-		(instances
-			(project "pcb_challenge_final"
-				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
-					(reference "Q23")
 					(unit 1)
 				)
 			)
@@ -57435,7 +57354,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 244.094 70.9168 0)
 			(hide yes)
 			(show_name no)
@@ -57712,6 +57631,103 @@
 			(project "pcb_challenge_final"
 				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Q_Dual_NPN_PNP_B1E2B2C2E1C1_1")
+		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
+		(at 237.49 496.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f06614a3-5348-437a-ae0b-b99787ba5942")
+		(property "Reference" "Q22"
+			(at 242.57 495.2999 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
+			(at 242.57 497.8399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
+			(at 242.57 494.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 496.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
+			(at 237.49 496.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "19187186-6303-45f6-b45e-b4720b06035d")
+		)
+		(pin "3"
+			(uuid "3fb1affe-30c4-44bc-943b-6b0fd2ff589e")
+		)
+		(pin "2"
+			(uuid "794cdd0c-cbd9-4d46-94d0-0127c2555e06")
+		)
+		(pin "1"
+			(uuid "a2bbc55c-7079-455b-8c71-a7e2483e6c51")
+		)
+		(pin "2"
+			(uuid "fb792f1e-fb7a-4bff-b9a0-4cd84d5ce6c8")
+		)
+		(pin "4"
+			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc66")
+		)
+		(instances
+			(project "pcb_challenge_final"
+				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
+					(reference "Q22")
 					(unit 1)
 				)
 			)
@@ -58897,6 +58913,103 @@
 		)
 	)
 	(symbol
+		(lib_name "Q_Dual_NPN_PNP_B1E2B2C2E1C1_1")
+		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
+		(at 349.25 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f68cd4bc-3a1d-4726-9ae6-52ee1fc0fe9b")
+		(property "Reference" "Q19"
+			(at 354.33 158.7499 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
+			(at 354.33 161.2899 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
+			(at 354.33 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
+			(at 349.25 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "19187186-6303-45f6-b45e-b4720b06035d")
+		)
+		(pin "3"
+			(uuid "c336e090-6a42-4dc0-abee-35da483bc158")
+		)
+		(pin "2"
+			(uuid "f62e4ac3-a9f8-4147-afa9-4406389f1677")
+		)
+		(pin "1"
+			(uuid "673e0ecd-1b02-4a64-99d1-0a67b3e0dc75")
+		)
+		(pin "2"
+			(uuid "fb792f1e-fb7a-4bff-b9a0-4cd84d5ce6c8")
+		)
+		(pin "4"
+			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc66")
+		)
+		(instances
+			(project "pcb_challenge_final"
+				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
+					(reference "Q19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 59.69 57.15 0)
 		(unit 1)
@@ -59374,102 +59487,6 @@
 			(project "pcb_challenge_final"
 				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:Q_Dual_NPN_PNP_B1E2B2C2E1C1")
-		(at 349.25 120.65 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fbd2cf24-385b-472a-9b8b-c8b488d6a5d5")
-		(property "Reference" "Q20"
-			(at 354.33 119.3799 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_Dual_NPN_PNP_B1E2B2C2E1C1"
-			(at 354.33 121.9199 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-1123"
-			(at 354.33 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 349.25 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual NPN/PNP transistor, 6 pin package"
-			(at 349.25 120.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "1aa8575d-d903-48c4-981e-21e6cda88f73")
-		)
-		(pin "3"
-			(uuid "94e838e4-0f47-4bb6-b84a-bff0c2c2d398")
-		)
-		(pin "2"
-			(uuid "207d8bb7-e55d-4fe3-9b6e-87c673bb4434")
-		)
-		(pin "1"
-			(uuid "26fdb3d7-582a-4ac6-87b9-fdd71209a30d")
-		)
-		(pin "5"
-			(uuid "1c48a021-2b03-42aa-b70e-4b55d7c6c2a0")
-		)
-		(pin "4"
-			(uuid "54262cc2-e01d-45d0-b765-e87af4eecc71")
-		)
-		(instances
-			(project "pcb_challenge_final"
-				(path "/a2338fc7-ce61-4d61-979a-e8ad262cca17"
-					(reference "Q20")
 					(unit 1)
 				)
 			)
