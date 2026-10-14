@@ -45,7 +45,7 @@ Your challenge submission should be a public GitHub repo. In this repo you just 
 
 ## Design Constraints
 
-The keep out zone of the ESP32 antenna does not have to cover any PCB area, it can be left hanging off the edge of the PCB. 
+The keep out zone of the ESP32 antenna does not have to cover any PCB area, it can be left hanging off the edge of the PCB. Furthermore ignore the datasheets associated with each component in this challenge.
 
 ### Board & Layer Stack
 - Four layer board (F.Cu / B.Cu + 2 inner layers), 1.6 mm standard FR4 thickness.
