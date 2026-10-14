@@ -54,7 +54,7 @@ The keep out zone of the ESP32 antenna does not have to cover any PCB area, it c
 
 ### Trace & Clearance Rules
 - Minimum trace width: 0.15 mm (6 mil).
-- Minimum clearance (trace to trace, trace to pad, trace to via): 0.15 mm (6 mil).
+- Minimum clearance (trace to trace, trace to pad, trace to via): 0.12 mm (6 mil) (changed from 0.15mm to 0.12mm due to the pads of the flip flop being seperated by 0.12mm).
 - Minimum copper to board edge clearance: 0.3 mm.
 - These values should be set as the global minimum in KiCad's Clearance rules so DRC enforces them automatically. We will check the DRC ourselves when judging. 
 
