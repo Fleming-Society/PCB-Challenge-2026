@@ -73,9 +73,8 @@ The keep out zone of the ESP32 antenna does not have to cover any PCB area, it c
 - Boards do not need to retain fully legible silkscreen labelling. 
 
 ### DRC Pass Criteria
-- All submitted boards must pass KiCad's Design Rule Checker (Inspect → Design Rules Checker) with **zero unresolved DRC errors**.
+- All submitted boards must pass KiCad's Design Rule Checker (Inspect → Design Rules Checker) to a good degree. I understand that the DRC can be quite buggy especially with imported footprints, thus I will be a bit lenient. 
 - DRC **warnings** (e.g. minor silkscreen clipping) will not disqualify a board, but excessive or careless warnings may count against a board at the routing quality tie break stage.
-- A board with unresolved DRC errors is disqualified from the size based ranking regardless of its footprint area.
 
 ### Note on High-Speed & Power Rules
 The challenge schematic does include a high speed signal paths (a differential pair requiring a continuous reference plane). It does not however have a significant power delivery requirement (e.g. wide power traces, stitching vias). As such, no specific power plane rules are imposed in this iteration. 
