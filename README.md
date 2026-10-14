@@ -19,8 +19,6 @@ UCL, KCL and Oxford, Cambridge, Imperial and Edinburgh are proud to present the 
 
 If you have any questions please email zceepvb@ucl.ac.uk. Please keep in mind you cannot make a submission/be eligible for the prizes if you do not attend any of the universities organising this event. Within the 7 day period this event is being hosted, any university Engineering society is free to reach out to collaborate at this email address. 
 
-### I am aware that there is an issue with the flip flop footprints and we will ignore any DRC errors associated with them. Just ensure you use a trace width of 0.17 for them. 
-
 All files are meant for KiCAD v10.0, if you have not updated, you probably should. It is a much better version than KiCAD v9.0 (includes dark mode). 
 
 The event is running from the **12th of October to the 19th of October.**
@@ -75,8 +73,10 @@ The keep out zone of the ESP32 antenna does not have to cover any PCB area, it c
 - Boards do not need to retain fully legible silkscreen labelling. 
 
 ### DRC Pass Criteria
-- All submitted boards must pass KiCad's Design Rule Checker (Inspect → Design Rules Checker) to a good degree. I understand that the DRC can be quite buggy especially with imported footprints, thus I will be a bit lenient. 
+- All submitted boards must pass KiCad's Design Rule Checker to a good degree (Inspect → Design Rules Checker) to a good degree. I understand that the DRC can be quite buggy especially with imported footprints, thus I will be a bit lenient. 
 - DRC **warnings** (e.g. minor silkscreen clipping) will not disqualify a board, but excessive or careless warnings may count against a board at the routing quality tie break stage.
+
+#### I am aware that there is an issue with the flip flop footprints and we will ignore any DRC errors associated with them. Just ensure you use a trace width of 0.17 for them. 
 
 ### Note on High-Speed & Power Rules
 The challenge schematic does include a high speed signal paths (a differential pair requiring a continuous reference plane). It does not however have a significant power delivery requirement (e.g. wide power traces, stitching vias). As such, no specific power plane rules are imposed in this iteration. 
