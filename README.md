@@ -67,7 +67,7 @@ The keep out zone of the ESP32 antenna does not have to cover any PCB area, it c
 - Only default KiCad footprints, or footprints explicitly provided as part of the challenge, may be used.
 - Footprints must not be modified from the library originals (this will be checked via KiCad's "footprint does not match library" DRC warning; note that editing a local copy of the library will not bypass this check, and manual review may also be used).
 - All footprints must have correctly defined courtyard layers (F.CrtYd / B.CrtYd), and courtyards must not overlap between components. This is enforced via KiCad's built in "courtyard overlap" DRC check.
-- Traces and vias may not be routed underneath IC footprints (i.e. within the courtyard area of any IC); given there is no shield underneath it. 
+- Traces and vias may not be routed underneath IC footprints (i.e. within the courtyard area of any IC); given there is no shield underneath it. This only applies if the IC and trace are on the same layer.
 
 ### Silkscreen
 - Boards do not need to retain fully legible silkscreen labelling. 
