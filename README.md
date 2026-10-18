@@ -36,7 +36,7 @@ From my own experience, no matter how much you may like designing PCBs, ultimate
 1. **Logic Deduction**: deduce the digital logic function implemented by the provided schematic, purely from the schematic itself (no functional description is given). Deducing this will give you bonus points.
 2. **PCB Layout**: design a fully wired, single board PCB implementation of that logic, optimised for the smallest possible board area, within the design constraints below.
 
-This challenge will be running for 7 days, **until the midnight of October 19th.**
+This challenge will be running for 7 days, **until the midnight of October 19th. (The end of the 19th)**
 
 Make your **submission** here:
 https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=_oivH5ipW0yTySEKEdmlwtUrHdFLQS5OlbEozvc0DnlUMzJQWkFZVDhVRjZNVTlCQjhHQ0hDSUxSQi4u
