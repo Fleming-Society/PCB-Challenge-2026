@@ -5,6 +5,8 @@
 4. Input 1,  Input2, Input 3 and Input 4 rather than b1, b2, b3 and 4.
 5. U2 is not a real component.
 6. SW2 pins were both GND. This has been resolved.
+7. EN on the clock generator should be en. 
+8. R24 and R6 do not show a connection to SH1, they are supposed to be connected. 
 
 #### Credits to: 
 Mickey Techachokwiwat, Andy Gao and Lutfi Cengiz for finding these issues and reporting them to me.
